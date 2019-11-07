@@ -7,6 +7,9 @@
     <title>ET-710 Midterm</title>
 
     <!-- *Begin AngularJS -->
+    <script src="js/vendor\angular-1.7.8\angular.min.js"></script>
+    <script src="js/vendor\angular-1.7.8\angular-animate.min.js"></script>
+    <script src="js/vendor\angular-1.7.8\angular-route.min.js"></script>
     <!-- *End AngularJS -->
 
 
@@ -51,9 +54,9 @@
              <li><a href="#">Home</a></li>
              <li><a href="about/index.html">About</a></li>
              <li><a href="services/index.html">Services</a></li>
-             <li><a href="works/index.html!/works">Works</a></li>
-             <li><a href="index.html!/news">News</a></li>
-             <li><a href="index.html!/contact">Contact</a></li>
+             <li><a href="works/index.html#!/works">Works</a></li>
+             <li><a href="index.html#!/news">News</a></li>
+             <li><a href="index.html#!/contact">Contact</a></li>
              <li>
                <button type="button" class="button hollow topbar-responsive-button">INVENTORY</button>
              </li>
@@ -66,6 +69,12 @@
       <!-- *End Nav -->
 
       <!-- *Begin Header -->
+      <div>
+    <label>Name:</label>
+    <input type="text" ng-model="yourName" placeholder="Enter a name here">
+    <hr>
+    <h1>Hello {{yourName}}!</h1>
+  </div>
       <div class="marketing-site-hero">
   <div class="marketing-site-hero-content">
     <h1>Yeti Snowcone Agency</h1>
@@ -73,7 +82,7 @@
     <a href="#" class="round button">learn more</a>
   </div>
 </div>
-      <!-- *End Header -->
+      <!-- *End AngularJS -->
 
       <!-- *Begin Content -->
       <div class="marketing-site-content-section">
@@ -94,6 +103,7 @@
           <img src="https://images.pexels.com/photos/300857/pexels-photo-300857.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" />
         </div>
       </div>
+
       <!-- *End Content -->
 
       <!-- *Begin Footer -->
@@ -156,15 +166,14 @@
                 </div>
                 <div class="column">
                   <ul class="menu marketing-site-footer-bottom-links">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about/index.html">About</a></li>
                     <li><a href="services/index.html">Services</a></li>
-                    <li><a href="works/index.html!/works">Works</a></li>
-                    <li><a href="index.html!/news">News</a></li>
-                    <li><a href="index.html!/contact">Contact</a></li>
+                    <li><a href="works/index.html#!/works">Works</a></li>
+                    <li><a href="index.html#!/news">News</a></li>
+                    <li><a href="index.html#!/contact">Contact</a></li>
                   </ul>
                 </div>
-                https://www.quora.com/AngularJS-Why-angularJS-templates-doesnt-work-in-chrome-browser-whereas-it-works-fine-on-Firefox
               </div>
             </div>
           </footer>
